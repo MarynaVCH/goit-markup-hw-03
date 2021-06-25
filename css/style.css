@@ -44,8 +44,25 @@ img {
 /* ========= HEADER ========= */
 
 .container {
-  width: 1600px;
+  width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
 }
 
 .logo {
@@ -54,6 +71,11 @@ img {
   line-height: 1.19;
   color: var(--accent-color);
   text-decoration: none;
+  margin-right: 94px;
+}
+
+.menu-item:not(:last-child) {
+  margin-right: 50px;
 }
 
 .logo-accent {
@@ -63,6 +85,8 @@ img {
 .logo-accent-footer {
   color: var(--white-color);
 }
+
+
 
 .menu-link {
   font-weight: 500;
