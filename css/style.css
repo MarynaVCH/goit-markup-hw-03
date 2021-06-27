@@ -242,6 +242,8 @@ img {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 .team-position {
